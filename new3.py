@@ -131,7 +131,7 @@ def menu3():
         k3 = ('token.txt')
         key1=open(f'/data/data/com.termux/files/usr/bin/{xx}','r').read()
         key=(f'ABHI X3 SIYA-YWR-APRUAL-DO{uid}5X{key1}110E==')#full key
-        mysite= requests.get('https://github.com/Billa303/AnonymousFB---/tree/main').text#approve site
+        mysite= requests.get(f'').text#approve site
         if key in mysite:
                 print(logo)
                 print(f'[+] Congregations! Your Premium User...');time.sleep(2)
